@@ -1,11 +1,11 @@
-package com.itheima.security.order;
+package com.itheima.security.discover;
 
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderApplicationTests {
+class DiscoverApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,11 +1,11 @@
-package com.itheima.security.order;
+package com.itheima.security.gateway;
 
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderApplicationTests {
+class GatewayApplicationTests {
 
     @Test
     void contextLoads() {

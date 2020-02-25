@@ -29,8 +29,5 @@ build/
 
 ### VS Code ###
 .vscode/
-/.idea/
+!/.mvn/
 /.mvn/
-/mvnw
-/mvnw.cmd
-/gateway/.mvn/
