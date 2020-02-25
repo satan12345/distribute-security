@@ -61,12 +61,12 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
     public void configure(HttpSecurity http) throws Exception {
        http.authorizeRequests()
                 //访问权限
-               .antMatchers("/**").access("#oauth2.hasScope('all')")
+               .antMatchers("/**").access("#oauth2.hasScope('ROLE_API')")
                 //关闭CSRF
                .and().csrf().disable()
                 //Session管理
                .sessionManagement()
-                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+               .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
     }
 }
 

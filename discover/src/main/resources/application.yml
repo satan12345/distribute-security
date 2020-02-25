@@ -5,6 +5,7 @@ spring:
 server:
   port: 53000 #启动端口
 
+
 eureka:
   server:
     enable-self-preservation: false    #关闭服务器自我保护，客户端心跳检测15分钟内错误达到80%服务会保护，导致别人还认为是好用的服务
